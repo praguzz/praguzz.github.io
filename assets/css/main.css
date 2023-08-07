@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    body{
+        @apply dark:bg-gray-800 dark:text-gray-50
+    }
+    h1{
+        @apply mb-4 text-4xl font-bold;
+    }
+    h2{
+        @apply my-2 text-2xl font-semibold;
+    }
+    a{
+        @apply underline
+    }
+    p{
+        @apply py-2
+    }
+    h2 a, h3 a, nav a{
+        @apply no-underline
+    }
+    ul{
+        @apply max-w-md space-y-1 list-disc list-inside
+    }
+    p img{
+        @apply my-2 mx-auto
+    }
+    blockquote{
+     @apply border-l-4 pl-2
+    }
+}

@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col h-screen">
     <Navbar/>
-    <div class="grow dark:bg-gray-800">
+    <div class="container mx-auto grow py-4">
       <slot/>
     </div>
     <footer class="bg-gray-800 text-gray-50 text-center py-2">
