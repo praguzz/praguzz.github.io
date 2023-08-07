@@ -5,8 +5,8 @@
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="hidden sm:ml-6 sm:block">
             <NuxtLink to="/" class="hover:bg-gray-700 px-3 py-2 text-sm font-medium">Home</NuxtLink>
-            <NuxtLink to="/about" class="hover:bg-gray-700 px-3 py-2 text-sm font-medium pointer-events-none">About</NuxtLink>
-<!--            <NuxtLink to="/blog" class="hover:bg-gray-700 px-3 py-2 text-sm font-medium pointer-events-none">Blog</NuxtLink>-->
+            <NuxtLink to="/about" class="hover:bg-gray-700 px-3 py-2 text-sm font-medium">About</NuxtLink>
+            <NuxtLink to="/blog" class="hover:bg-gray-700 px-3 py-2 text-sm font-medium">Blog</NuxtLink>
           </div>
         </div>
       </div>

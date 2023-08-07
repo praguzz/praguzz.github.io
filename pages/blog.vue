@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout>
     <section>
-      <p>This page will be displayed in /about route.</p>
+      <p>This page will be displayed in /blog route.</p>
     </section>
   </NuxtLayout>
 </template>
